@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="he4augAwk-Qrp6Smel1L">
+    <mxGraphModel dx="787" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UlETZy2FzjsHENboVK3h-3" edge="1" parent="1" source="UlETZy2FzjsHENboVK3h-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UlETZy2FzjsHENboVK3h-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Generate a random number 1 - 10 and store in&amp;nbsp;&lt;/div&gt;&lt;div&gt;secret&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-5" edge="1" parent="1" source="UlETZy2FzjsHENboVK3h-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UlETZy2FzjsHENboVK3h-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Prompt user and store number in guess" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-7" edge="1" parent="1" source="UlETZy2FzjsHENboVK3h-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UlETZy2FzjsHENboVK3h-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-8" connectable="0" parent="UlETZy2FzjsHENboVK3h-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-10" edge="1" parent="1" source="UlETZy2FzjsHENboVK3h-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UlETZy2FzjsHENboVK3h-9" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="390" />
+              <mxPoint x="290" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;" value="Do secret and guess have the same value?" vertex="1">
+          <mxGeometry height="120" width="160" x="340" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Print &quot;guessed correct&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-9" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Print &quot;guess is incorrect&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-11" edge="1" parent="1" source="UlETZy2FzjsHENboVK3h-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UlETZy2FzjsHENboVK3h-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Generate a random number 1 - 10 and store in&amp;nbsp;&lt;/div&gt;&lt;div&gt;secret&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-13" edge="1" parent="1" source="UlETZy2FzjsHENboVK3h-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UlETZy2FzjsHENboVK3h-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-14" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Prompt user and store number in guess" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-15" edge="1" parent="1" source="UlETZy2FzjsHENboVK3h-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UlETZy2FzjsHENboVK3h-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-16" connectable="0" parent="UlETZy2FzjsHENboVK3h-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-17" edge="1" parent="1" source="UlETZy2FzjsHENboVK3h-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UlETZy2FzjsHENboVK3h-20" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="810" />
+              <mxPoint x="290" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-18" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;rounded=0;" value="Do secret and guess have the same value?" vertex="1">
+          <mxGeometry height="120" width="160" x="340" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-19" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Print &quot;guessed correct&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-20" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Print &quot;guess is incorrect&quot;" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="UlETZy2FzjsHENboVK3h-21" edge="1" parent="1" source="UlETZy2FzjsHENboVK3h-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" target="UlETZy2FzjsHENboVK3h-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
