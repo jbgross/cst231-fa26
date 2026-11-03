@@ -1,0 +1,5 @@
+hello
+goodbye
+15
+salud
+ciao
